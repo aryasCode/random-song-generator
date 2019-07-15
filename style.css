@@ -6,6 +6,8 @@
 }
 body {
   background-image: url("https://www.kesher.org.il/wp-content/uploads/2018/06/1280-178704610-cork-board-with-blank-notes.jpg");
+  /* background-repeat: repeat-x;
+  background-position: left; */
 }
 .button {
   background-color: cyan; /* Green */
@@ -34,34 +36,65 @@ h1{
   text-align: center;
   margin-left: 400px;
   margin-top: 20px;
-  /* display: block;
-  justify-content: center; */
+  justify-content: center;
   /* font-family: 'Advent Pro', sans-serif; */
   font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  font-size: 55px;
 }
 
 h2{
-  text-align: center;
-  margin-left: 100px;
+  /*text-align: center;
+  margin-right: 120px;
+  margin-left: 50px;
   margin-top: 6px;
   /* display: block;
   justify-content: center; */
   /* font-family: 'Advent Pro', sans-serif; */
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
- position: absolute;
+  position: absolute;
+  top: 190px;
+  left: 200px;
+  width: 200px;
+  height: 300px;
+  justify-content: center;
+}
+
+.wquotes{
+  position: center;
 }
 
 h3{
-  text-align: center;
-  margin-left: 80px;
-  margin-top: 2px;
+  /* text-align: center;
+  margin-left: 10px;
+  margin-top: 2px; */
   /* display: block;
   justify-content: center; */
   /* font-family: 'Advent Pro', sans-serif; */
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
   position: absolute;
+  top: 190px;
+  left: 800px;
+  width: 200px;
+  height: 300px;
+  justify-content: center;
 
+}
+
+.click{
+  /* text-align: center;
+  margin-left: 10px;
+  margin-top: 2px; */
+  /* display: block;
+  justify-content: center; */
+  /* font-family: 'Advent Pro', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  position: absolute;
+  top: 240px;
+  left: 200px;
+  width: 200px;
+  height: 300px;
+  justify-content: center;
 }
